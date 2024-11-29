@@ -55,14 +55,41 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 }
-.btn-primery{
-  color:;
-text-align: center;
-font-family: "Work Sans";
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.btn-primary{
+  color: #fff;
+  font-size: 1.25rem;
+  background: #ff900f;
+  padding: 20px 25px;
+  color: #fff;
+  cursor: pointer;
 }
+.banner img{
+  width: 100%;
+  margin: 20px;
+}
+@media screen and (max-width: 576px) {
+  padding: 20px;
+  nav{
+    flex-direction: column;
+  }
+  
+}
+/*for tablate*/
+@media screen and (min-width:576)and (max-width:960px) {
+nav{
+  flex-direction: column;
+}
+  
+}
+@media screen and (main-width:576px)and(max-width: 960px)  {
+  header{
+    padding:50px ;
+  }
+  nax{
+    flex-direction: column;
+  }
+  
+}
+
 
   
